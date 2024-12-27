@@ -1,7 +1,12 @@
 import React from "react";
+import Login from "./components/Auth/Login";
 
 const App = () => {
-  return <div className="flex justify-center text-white">App</div>;
+  return (
+    <>
+      <Login />
+    </>
+  );
 };
 
 export default App;
